@@ -6,7 +6,7 @@ const users_routes = require('./routes/users');
 
 // ejs
 app.use(expressLayouts);
-app.set('view engine ', 'ejs');
+app.set('view engine','ejs');
 
 
 // Routes
